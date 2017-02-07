@@ -16,6 +16,7 @@ public class P2_GC {
 	
 	
 	public void Jogo(String nome, double preco, int maiorScore, int qntdJogadas, boolean zerou, String jogabilidade){
+		this.jogo = new Jogo(nome, preco);
 		this.maiorScore = maiorScore;
 		this.qntdJogadas = qntdJogadas;
 		this.zerou = zerou;

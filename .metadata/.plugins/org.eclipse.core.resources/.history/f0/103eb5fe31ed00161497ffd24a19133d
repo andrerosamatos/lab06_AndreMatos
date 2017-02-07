@@ -1,0 +1,18 @@
+package p2cg;
+
+public class Jogo {
+	private String nome;
+	private double preco;
+	private int maiorScore;
+	private int qntdJogadas;
+	private boolean zerou;
+	private int score;
+
+	public Jogo(String nome, double preco, int maiorScore, int qntdJogadas, boolean zerou, int score) {
+		this.jogo = new Jogo(nome, preco);
+		this.maiorScore = maiorScore;
+		this.qntdJogadas = qntdJogadas;
+		this.zerou = zerou;
+	}
+
+}

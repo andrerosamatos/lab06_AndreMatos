@@ -1,8 +1,8 @@
 package p2cg;
-// NÃO É PARA TER LOJA...
+
 public class P2_GC {
-	private Jogo jogo;
-	private String nome;
+	
+	private nome;
 	private double preco;
 	private int maiorScore;
 	private int qntdJogadas;
@@ -16,6 +16,7 @@ public class P2_GC {
 	
 	
 	public void Jogo(String nome, double preco, int maiorScore, int qntdJogadas, boolean zerou, String jogabilidade){
+		this.jogo = new Jogo(nome, preco);
 		this.maiorScore = maiorScore;
 		this.qntdJogadas = qntdJogadas;
 		this.zerou = zerou;

@@ -1,0 +1,70 @@
+package p2cg;
+
+public class Jogo {
+	private Jogo jogo;
+	private String nome;
+	private double preco;
+	private int maiorScore;
+	private int qntdJogadas;
+	private boolean zerou;
+	private int score;
+	
+	
+
+	public Jogo(String nome, double preco, int maiorScore, int qntdJogadas, boolean zerou, int score) {
+		this.jogo = new Jogo(nome, preco, maiorScore, qntdJogadas, zerou, score);
+		this.maiorScore = maiorScore;
+		this.qntdJogadas = qntdJogadas;
+		this.zerou = zerou;
+	}
+
+	
+	
+	public int getMaiorScore() {
+		return maiorScore;
+	}
+
+	public void setMaiorScore(int maiorScore) {
+		this.maiorScore = maiorScore;
+	}
+
+	public int getQntdJogadas() {
+		return qntdJogadas;
+	}
+
+	public void setQntdJogadas(int qntdJogadas) {
+		this.qntdJogadas = qntdJogadas;
+	}
+
+	public boolean isZerou() {
+		return zerou;
+	}
+
+	public void setZerou(boolean zerou) {
+		this.zerou = zerou;
+	}
+
+	public int getScore() {
+		return score;
+	}
+
+	public void setScore(int score) {
+		this.score = score;
+	}
+
+	public Jogo getJogo() {
+		return jogo;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public double getPreco() {
+		return preco;
+	}
+
+	
+	
+
+}
